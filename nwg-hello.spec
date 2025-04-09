@@ -1,3 +1,4 @@
+%undefine _debugsource_packages
 Name:		nwg-hello 
 Version:	0.3.1
 Release:	1
