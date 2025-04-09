@@ -31,3 +31,6 @@ It is meant to work under a Wayland compositor, like sway or Hyprland.
 The greeter has been developed for the nwg-iso project, but it may be configured for standalone use.
 
 %files
+%{_bindir}/nwg-hello
+%{python_sitelib}/nwg_hello-%{version}-py*.*.egg-info
+%{python_sitelib}/nwg_hello/
