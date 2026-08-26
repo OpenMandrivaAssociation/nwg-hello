@@ -55,7 +55,6 @@ install -Dm 644 cache.json 	%{buildroot}%{_localstatedir}/cache/%{name}/cache.js
 
 %{_sysconfdir}/%{name}/*
 %{_datadir}/%{name}/*
-%{_sysconfdir}/%{name}/README
 #%{_libdir}/tmpfiles.d/%{name}.conf
 %{_localstatedir}/cache/%{name}/cache.json
 %dir %{_localstatedir}/cache/%{name}
